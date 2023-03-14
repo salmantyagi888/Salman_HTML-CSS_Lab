@@ -1,0 +1,51 @@
+header{
+    color: black;
+    text-align: center;
+    background-color: red;
+    padding: 20 px;
+}
+nav{
+    background-color: dimgrey;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+}
+ul{
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+li{
+    margin-left: 10px;
+    position: relative;
+}
+a{
+    color: white;
+    background-color: dimgrey;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+
+}
+li.dropdown:hover .dropdown-menu{
+    display: block;
+
+}
+.dropdown-menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+.dropdown-menu li{
+    margin: 0;
+}
+.dropdown-menu a{
+    padding: 5px 10px;
+}
+.dropdown-menu a:hover{
+    background-color: grey;
+}
